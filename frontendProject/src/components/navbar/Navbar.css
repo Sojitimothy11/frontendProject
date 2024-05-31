@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    width: 1206px;
+    height: 57px;
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 2rem;
+}
+
+nav{
+    width: 1512px;
+    height: 119px;
+    background-color: #353342;
+    position: fixed;
+    
+    
+}
+
+a{
+    color: #fff;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 18px;
+    text-decoration: none;
+}
+
+button:hover{
+    text-decoration: none;
+    background-color: #E2D8C0;
+    
+
+}
+
+a:hover{
+    text-decoration: none;
+    color: #FFD803;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    gap: 53px; 
+
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    
+   
+}
+
+button{
+    display: flex;
+justify-content: center;
+align-items: center;
+gap: 29px;
+padding: 17px 38px;
+border-radius: 14px;
+border-width: 1px;
+    
+}
+
+.logo img{
+    width: 70px;
+    height: 30px;
+    margin-left: 5.5rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.others{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 53px;   
+}

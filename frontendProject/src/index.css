@@ -1,0 +1,20 @@
+::root{
+  --ash: #353342;
+  --light: #FEF6E4;
+  --yellow:#FFD803;
+  --dark: #000000;
+  --white: #FFFFFF;
+  --dim: #E2D8C0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
