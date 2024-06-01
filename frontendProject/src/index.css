@@ -1,7 +1,7 @@
 ::root{
   --ash: #353342;
   --light: #FEF6E4;
-  --yellow:#FFD803;
+  --yellow:hsl(51, 100%, 51%);
   --dark: #000000;
   --white: #FFFFFF;
   --dim: #E2D8C0;

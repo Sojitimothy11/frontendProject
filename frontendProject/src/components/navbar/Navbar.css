@@ -13,6 +13,7 @@ nav{
     height: 119px;
     background-color: #353342;
     position: fixed;
+    z-index: 2;
     
     
 }

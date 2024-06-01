@@ -1,0 +1,97 @@
+.parent{
+    background-color: #FEF6E4;
+    width: 100%;
+
+}
+
+.child{
+    width: 1181px;
+    height: 665px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right{
+    width: 578px;
+    height: 440px;
+    flex-basis: 50%;
+    padding: 10px;
+    
+}
+
+.read:hover{
+    width: 200px;
+    height: 57px;
+    background-color:#353342 ;
+    color: #fff;
+}
+
+.read{
+background-color: #353342;
+padding: 17px 38px;
+border-radius: 14px;
+color: #fff;
+width: 170px;
+height: 57px;
+}
+
+.square{
+    width: 151px;
+    height: 185px;
+    position: absolute;
+    right: 85px;
+    top: 60px;
+    z-index: 1;
+}
+
+.carousel{
+    width: 424px;
+    height: 399px;
+    position: absolute;
+    padding: 4px;
+    top: 100px;
+    left: -20px;
+    z-index: 2;
+}
+
+.left{
+    width: 448px;
+    height: 438px;
+    flex-basis: 50%;
+    padding: 50px;
+    position: relative;
+}
+
+.aboutone{
+    font-weight: 100;
+
+}
+
+.aboutone {
+        text-decoration-line: underline;
+        text-decoration-color: #FFD803;
+        transition: all 0.3s ease;
+        padding-bottom: 15px;
+}
+
+.abouttwo{
+    font-weight: 200;
+    font-style: italic;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.side{
+    color: #000000;
+}
+
+.flex{
+    display: flex;
+}
+
+.right p{
+font-family: "Plus Jakarta Sans";
+font-weight: 400;
+color: #000000;
+}
