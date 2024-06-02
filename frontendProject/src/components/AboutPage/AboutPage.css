@@ -1,0 +1,127 @@
+.overlay{
+    background-color: #FEF6E4;
+    width: 100%;
+    height: 1538px;
+    background-image: url(../../assets/frame.png);
+    position: relative;
+
+
+}
+
+.layer{
+    padding-top: 8rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square{
+    width: 248px;
+    height: 304px;
+    position: absolute;
+    right: 80px;
+    top: 70px;
+    z-index: 1;
+}
+
+.up{
+    width: 698.46px;
+    height: 657.38px;
+    position: relative;
+}
+
+.images{
+    width: 698.46px;
+    height: 657.38px;
+    position: absolute;
+    padding: 20px;
+    top: 90px;
+    left: 160px;
+    z-index: 2;
+}
+
+.heading{
+    font-weight: 600;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.images .pre {
+    width: 424px;
+    height: 399px;
+    position: absolute;
+    padding: 15px;
+    top: 40px;
+    left: 10px;
+    z-index: 2;
+}
+.images .change_outer {
+    width: 424px;
+    height: 399px;
+    position: absolute;
+    padding: 15px;
+    top: 40px;
+    left: 10px;
+    z-index: 2;
+  overflow: hidden;
+}
+.images .change_outer .change_inner {
+  position: relative;
+  animation: rotate 8s ease-in-out infinite;
+}
+.images .change_outer .element {
+  display: block;
+}
+
+@keyframes rotate {
+ 10%, 15%, 100% {
+            transform: translateY(0);
+  }
+  25%,36% {
+            transform: translateY(-45px);
+  }
+  46%,57% {
+            transform: translateY(-90px);
+  }
+  67%,78% {
+            transform: translateY(-135px);
+  }
+  88%, 99% {
+            transform: translateY(-180px);
+  }
+} 
+
+.down{
+    margin-top: -7rem;
+}
+
+.comm{
+    width: 30px;
+    height: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.down p{
+font-family: "Plus Jakarta Sans";
+font-weight: 400;
+color: #000000;
+padding: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding-left: 6rem;
+}
+
+.down h2{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-style: italic;
+}

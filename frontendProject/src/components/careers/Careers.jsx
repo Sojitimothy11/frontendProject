@@ -1,10 +1,8 @@
-import "./Careers.css";
-
 import React from 'react'
 
 const Careers = () => {
   return (
-    <div>Careers</div>
+    <div></div>
   )
 }
 

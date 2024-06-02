@@ -1,0 +1,107 @@
+.container{
+    background-color: #FEF6E4;
+    width: 100%;
+    height: 665px;
+    padding-top: 5rem;
+    
+}
+
+.contain{
+    width: 1181px;
+    height: 664px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family:'Plus Jakarta Sans', sans-serif;
+}
+
+
+
+.headertext{
+    font-weight: 100;
+    text-decoration: underline;
+    text-decoration-color:#FFD803 ;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.heading{
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+}
+
+.paragraphtext{
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.corporate{
+    width: 287px;
+    height: 474px; 
+    background-color: #F3E6A0;
+    border-radius: 14px; 
+
+}
+
+.graphic{
+    width: 287px;
+    height: 474px; 
+    background-color: #CCC6F2;
+    border-radius: 14px;  
+}
+
+.webdesign{
+    width: 287px;
+    height: 474px;  
+    background-color: #CBDAFF;
+    border-radius: 14px;
+}
+
+.mobile{
+    width: 287px;
+    height: 474px;
+    background-color: #EAB8FC;
+    border-radius: 14px;  
+}
+ 
+.lower{
+    display: flex;
+gap: 11px;
+justify-content: center;
+align-items: center;
+width: 1181px;
+margin-left: 7rem;
+}
+
+.vector{
+   padding-top: 3rem;
+   padding-left: 2rem 
+}
+
+h3{
+    font-size: larger;
+    padding-left: 2rem;
+    margin-top: 19rem;
+    
+    
+}
+
+.breakpoint{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+ margin-top: 19rem;
+ padding-right: 2rem;
+}

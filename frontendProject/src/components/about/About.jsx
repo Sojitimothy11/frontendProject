@@ -1,5 +1,9 @@
 import "./About.css";
 
+import imgFive from "../../assets/Rectangle 463.png";
+import imgFour from "../../assets/Rectangle 454.png";
+import imgThree from "../../assets/Rectangle 4662.png";
+import imgTwo from "../../assets/Rectangle 4460.png";
 import oneImage from "../../assets/Rectangle 458.png";
 import square from "../../assets/square.svg";
 
@@ -11,7 +15,19 @@ const About = () => {
         <div className="child">
           <div className="left">
             <img src={square} alt="svg" className="square" />
-              <img src={oneImage} className="carousel" alt="" />
+    
+    <div className="carousel">
+			
+			<div className="change_outer">
+				<div className="change_inner">
+					<div className="element"> <img src={oneImage}  alt="image"/> </div>
+					<div className="element"><img src={imgTwo}  alt="image" /></div>
+					<div className="element"><img src={imgThree}  alt="image" /></div>
+					<div className="element"><img src={imgFour}  alt="image" /></div>
+					<div className="element"><img src={imgFive}  alt="image" /></div>
+				</div>
+			</div>
+		</div>
           
 
           </div>
