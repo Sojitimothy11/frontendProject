@@ -35,12 +35,17 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    gap: 2rem;
+    gap: 1rem;
     margin-top: 2rem;
-    margin-left: -5zrem;
-    width: 659px;
+    margin-left: 3rem;
+    width: 700px;
     height: 90px;
 }
+
+.textstwo p{
+    display: none;
+}
+
 
 h1{
     font-size: 3rem;
@@ -49,7 +54,7 @@ h1{
     letter-spacing: 3px;   
     color: #fff;
     line-height: normal;
-   margin-left: -14rem;
+   margin-left: -28rem;
 }
 h1 span{
     
@@ -108,6 +113,10 @@ h1{
     color: #fff;
     line-height: normal;
     padding-top: 10rem;
+}
+
+.textsone{
+    display: none;
 }
 
 .left{

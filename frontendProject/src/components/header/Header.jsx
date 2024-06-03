@@ -17,7 +17,12 @@ const Header = () => {
             <img src={svg} alt="arrow" className="arrow" />
             </div >
            
-            <div className="texts">
+            <div className="textsone">
+            <p>We can support you with content marketing, <br />
+             employer branding, web development, <br />
+            performance marketing or social media marketing</p>
+            </div>
+            <div className="textstwo">
             <p>We can support you with content <br />
              marketing, employer branding, web<br />
             development, performance marketing <br />

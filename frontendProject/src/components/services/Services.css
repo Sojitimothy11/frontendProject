@@ -49,18 +49,52 @@
 }
 
 .corporate{
-    width: 287px;
-    height: 474px; 
+     width: 287px;
+    height: 474px;
     background-color: #F3E6A0;
     border-radius: 14px; 
+    position: relative;
+    overflow: hidden;
 
 }
+.corporate::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/corporatedev.png);
+    transition: left 0.5s ease-in-out;
+}
+
+.corporate:hover::after {
+    left: 0;
+}
+
 
 .graphic{
     width: 287px;
     height: 474px; 
     background-color: #CCC6F2;
     border-radius: 14px;  
+    position: relative;
+    overflow: hidden;
+}
+
+.graphic::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/graphicdev.png);
+    transition: left 0.5s ease-in-out;
+}
+
+.graphic:hover::after {
+    left: 0;
 }
 
 .webdesign{
@@ -68,13 +102,46 @@
     height: 474px;  
     background-color: #CBDAFF;
     border-radius: 14px;
+    position: relative;
+    overflow: hidden;
 }
 
+.webdesign::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/webdev.png);
+    transition: left 0.5s ease-in-out;
+}
+
+.webdesign:hover::after {
+    left: 0;
+}
 .mobile{
     width: 287px;
     height: 474px;
     background-color: #EAB8FC;
     border-radius: 14px;  
+    position: relative;
+    overflow: hidden;
+}
+
+.mobile::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../assets/mobdev.png);
+    transition: left 0.5s ease-in-out;
+}
+
+.mobile:hover::after {
+    left: 0;
 }
  
 .lower{
