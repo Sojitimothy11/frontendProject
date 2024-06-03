@@ -14,13 +14,14 @@ const Header = () => {
         </div>
         <div className="paragraph">
           <div className="yellowImg">
-            <img src={svg} alt="arrow" />
+            <img src={svg} alt="arrow" className="arrow" />
             </div >
-            
+           
             <div className="texts">
-            <p>We can support you with content marketing,<br />
-             employer branding, web development, <br />
-             performance marketing or social media marketing</p>
+            <p>We can support you with content <br />
+             marketing, employer branding, web<br />
+            development, performance marketing <br />
+               or social media marketing</p>
             </div>
         </div>
 

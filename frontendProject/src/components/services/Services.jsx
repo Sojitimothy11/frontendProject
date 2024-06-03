@@ -15,7 +15,7 @@ const Services = () => {
     <div className="container">
      <div className="contain"> 
       <div className="upper">
-      <h2 className="headertext">OUR SERVICES</h2>
+      <center><h2 className="headertext">OUR SERVICES</h2></center>
      <center> <h2 className="heading">Where Tech Meets Success</h2></center>
 
       <p className="paragraphtext">Transform your business with our expert tech solutions! From strategic planning to seamless implementation, we'll <br />

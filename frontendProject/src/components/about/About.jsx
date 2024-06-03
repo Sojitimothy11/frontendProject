@@ -33,10 +33,9 @@ const About = () => {
           </div>
           <div className="right">
             <h2 className="aboutone">ABOUT US</h2>
-            <div className="flex">
-              <div> <h1 className="side">"</h1></div>
-              <div> <h2 className="abouttwo"> Spark innovation, fuel growth</h2></div>
-            </div>
+      
+               <h2 className="abouttwo"> Spark innovation, fuel growth</h2>
+        
           
             <p>
             At Styleplus, we're passionate about harnessing the power of <br />
