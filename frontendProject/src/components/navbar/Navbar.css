@@ -13,7 +13,7 @@ nav{
     height: 119px;
     background-color: #353342;
     position: fixed;
-    z-index: 2;
+    z-index: 1000;
     
     
 }
@@ -25,7 +25,7 @@ a{
     text-decoration: none;
 }
 
-button:hover{
+.buttonOne:hover{
     text-decoration: none;
     background-color: #E2D8C0;
     
@@ -48,12 +48,10 @@ nav ul{
 
 nav ul li{
     display: flex;
-    align-items: center;
-    
-   
+    align-items: center;   
 }
 
-button{
+.buttonOne{
     display: flex;
 justify-content: center;
 align-items: center;
@@ -63,7 +61,9 @@ border-radius: 14px;
 border-width: 1px;
     
 }
-
+.menu-icon, .mobile-container, .smalllogo{
+    display: none;
+}
 .logo img{
     width: 70px;
     height: 30px;
@@ -72,9 +72,127 @@ border-width: 1px;
     margin-top: 0.5rem;
 }
 
+
 .others{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 53px;   
+}
+
+/* Mobile Responsiveness*/
+
+@media(max-width:720px){
+ .menu-icon{
+    display: block;
+    margin-left: 24rem;
+    position: fixed;
+    top: 3rem;
+
+ }
+
+ .buttonOne{
+    display: none;
+ }
+
+ .close{
+
+    top: 32px;
+    right: 32px;
+    position: fixed;
+
+ }
+
+
+
+
+ nav{
+    width: unset;
+ }
+
+ nav button{
+    display: none;
+ }
+
+
+ .smalllogo{
+    display: block;
+    padding: 1rem;
+    position: fixed;
+ }
+
+ .logo{
+    display: none;
+ }
+
+ nav .others{
+    display: none;
+ }
+
+
+ .mobile-container{
+    margin-right: 3rem;
+    margin-top: 2.5rem;
+    list-style: none;
+    display: flex;
+    position: fixed;
+    color: #fff;
+    z-index: 1200;
+    top: 0;
+    right: 0;
+    background-color: #353342;
+    transform: translateY(-100%);
+    transition: all 1200ms cubic-bezier(0.3, 0.96, 0.59, 0.95);
+ }
+
+ .mobile-container.active{
+    transform: translateY(0);
+ }
+
+ .mobile-container ul{
+    width: 170px;
+    height: 509px;
+    top: 190px;
+    left: 110px;
+    gap: 40px;
+    opacity: 0px;
+ 
+ }
+
+
+
+ .mobile-container ul li{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    list-style: none;
+ }
+
+ .mobile-container ul li a{
+    display: inline-block;
+ }
+
+ .mobile-container .btnOOO{
+    width: 150px;
+height: 50px;
+padding: 17px 34px 17px 34px;
+margin-right: 10px;
+gap: 29px;
+border-radius: 9px;
+opacity: 0px;
+
+ }
+
+ .btnOOO:hover{
+    text-decoration: none;
+    background-color: #E2D8C0;
+    
+
+}
+
+
+
 }

@@ -10,7 +10,7 @@ import square from "../../assets/square.svg";
 
 const AboutPage = () => {
   return (
-    <div>
+    <div id="aboutPage">
       <div className="overlay">
 
         <div className="layer">

@@ -8,6 +8,7 @@
 
 }
 
+
 .layer{
     padding-top: 8rem;
     display: flex;
@@ -126,3 +127,5 @@ padding-left: 6rem;
     padding: 2rem;
     font-style: italic;
 }
+
+
