@@ -126,6 +126,11 @@ padding-left: 6rem;
     align-items: center;
     padding: 2rem;
     font-style: italic;
+
+}
+
+@media(max-width:720px){
+    
 }
 
 

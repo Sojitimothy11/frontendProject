@@ -179,7 +179,7 @@ h3{
 @media(max-width:720px){
     .container{
         width: 100%;
-        margin-top: 20rem;
+        margin-top: 15rem;
     }
     .contain{
         width: 100%;
@@ -190,23 +190,37 @@ h3{
         color: black;
         font-family:'Plus Jakarta Sans', sans-serif;
 
-        margin-top: 15rem;
+        margin-top: 12rem;
     }  
-
+    .upper .paragraphtext{
+        font-size: small;
+        display: flex;
+        justify-content: center;
+        margin-left: -10rem;
+    }
     .upper h2{
-        padding: 0;
+        font-size: medium;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -10rem;
+        
     }
 
     .lower{
-        width: 100%;
-        display: flex;
-    gap: 11px;
-    justify-content: center;
-    align-items: center;
-flex-direction: column;
+ width: 100%;
+ display: flex;
+ gap: 11px;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
     }
 .mobile, .graphic, .webdesign, .corporate{
-    width: 100%;
-    height: 313px;
+    width: 70%;
+    height: 250px;
+    justify-content: center;
+ align-items: center;
+ display: flex;
+ margin-right: 7rem;
 }
 }

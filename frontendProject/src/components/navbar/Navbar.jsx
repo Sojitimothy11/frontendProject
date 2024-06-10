@@ -49,7 +49,7 @@ const Navbar = () => {
      
      <ul>
             <li>
-              <a onClick={()=>setIsActive(false)}  href="#aboutPage" >About</a>
+              <Link to="/aboutpage" onClick={()=>setIsActive(false)}  href="#aboutPage" >About</Link>
             </li>
             <li>
               <a onClick={()=>setIsActive(false)}  href="#">Services</a>

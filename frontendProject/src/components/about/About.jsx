@@ -9,7 +9,7 @@ import square from "../../assets/square.svg";
 
 const About = () => {
   return (
-    <div>
+    <>
       <div className="parent">
 
         <div className="child">
@@ -28,10 +28,9 @@ const About = () => {
 				</div>
 			</div>
 		</div>
-          
-
           </div>
-          <div className="right">
+
+        <div className="right">
             <h2 className="aboutone">ABOUT US</h2>
       
                <h2 className="abouttwo"> Spark innovation, fuel growth</h2>
@@ -50,7 +49,7 @@ const About = () => {
           </div>
         </div>
     </div>
-    </div>
+    </>
   )
 }
 
